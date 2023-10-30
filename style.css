@@ -7,6 +7,7 @@
 }
 body{
     background-color: #EBE5C5;
+    
 }
 
 :root{
@@ -39,6 +40,7 @@ header > h1{
     margin-bottom: 30px;
     font-size: 3em; 
     padding-top: 35px;
+    
 
 
 }
@@ -84,31 +86,32 @@ nav a:hover{
 
 main{
     background-color: white;
-    margin: auto;
-    box-shadow:0px 0px 10px black;
-    padding: 20px;
-    max-width: 50%;
-    border-bottom-left-radius:10px ;
-    border-bottom-right-radius: 10px;
+   margin: auto;
+    box-shadow:0px 0px 10px black; 
+    max-width: 1040px;
+    border-radius: 0px 0px 15px 15px;
+    display: ;
+    /* border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px; */
 }
 
-article{
+main article{
     padding: 15px;
     
 }
 
-article h1{
+main h1{
     font-size: 2em;
     font-family: var(--fonte-android);
     color: var(--cor5);
 }
 
-article h2{
+main h2{
  background-image: linear-gradient(to right ,var(--cor1), white);
     color: var(--cor4);
 }
 
-article p{
+main p{
     font-family: sans-serif;
     text-align: justify;
     /* margin: 15px 0px; */
@@ -119,11 +122,11 @@ article p{
     line-height: 2em;
 }
 
-article p strong{
+main p strong{
     color:var(--cor4);
 }
 
-article p a{
+main p a{
     text-decoration: none;
     font-weight: bold;
     background-color: var(--cor1);
@@ -131,30 +134,28 @@ article p a{
     padding: 3px 10px;
 }
 
-article p a:hover{
+main p a:hover{
     text-decoration: underline;
     color: var(--cor4);
 }
 
-article p a::after{
+main p a::after{
     
         content: '\00A0\1F517';}
 
 
 img {
-    overflow: clip;
+    width: 100%;
 }
 
 #bugdroid{
-    overflow-clip-margin: content-box;
-    overflow: clip;
+    
     width: 100%;
 
 } 
 .img32{
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    width: 100%;
+    max-width: 350px;
+    margin: auto;
     
 }
     .video{
